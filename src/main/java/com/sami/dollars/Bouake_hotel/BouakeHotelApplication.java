@@ -8,7 +8,7 @@ public class BouakeHotelApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BouakeHotelApplication.class, args);
-		System.out.println("Check");
+		System.out.println("Check...");
 	}
 
 }
