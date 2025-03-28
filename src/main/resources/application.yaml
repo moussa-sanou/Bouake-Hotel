@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: Bouake-hotel
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 9090
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+server:
+  port: 9000
+
+
+
