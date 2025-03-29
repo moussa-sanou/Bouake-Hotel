@@ -11,7 +11,8 @@
 	<groupId>com.sami.dollars</groupId>
 	<artifactId>Bouake-hotel</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Bouake-hotel</name>
+    <packaging>pom</packaging>
+    <name>Bouake-hotel</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -20,7 +21,10 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
+    <modules>
+        <module>room-clr</module>
+    </modules>
+    <scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>
